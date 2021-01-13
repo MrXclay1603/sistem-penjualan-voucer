@@ -1,2 +1,2 @@
 # sistem-penjualan-voucer
-SistemPenjualan Voucer dengan mengguakan php murni
+SistemPenjualan Voucer dengan menggunakan php murni
