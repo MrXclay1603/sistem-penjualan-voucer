@@ -3,7 +3,7 @@
         <div class="col-xs-12">
             <div class="alert alert-info">
                 <?php if (isset($_SESSION['username'])) { ?>
-                <strong>Selamat Datang <strong><?=$_SESSION['nama']; ?></strong>
+                <strong>Selamat Datang <strong><?= ucfirst($_SESSION['nama']); ?></strong>
                     <?php } else { ?>
                     <strong>Selamat Datang <strong>Pengunjung</strong>
                         <?php } ?>
@@ -17,7 +17,7 @@
                 <div class="panel-heading">
                     <h3 class="panel-title">Sistem Penjualan Voucer</h3>
                 </div>
-                <div class="panel-body">
+                <div class="panel-body" >
                     <table id="dtskripsi" class="table table-bordered table-striped table-hover">
                         <thead>
                             <tr>

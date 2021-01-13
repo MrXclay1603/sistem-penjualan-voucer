@@ -65,11 +65,14 @@ require 'config/koneksi.php'; ?>
             cursor: pointer;
             width: 100%;
         }
+        body{
+            background-image:url('img/bg.jpg');
+        }
 
         </style>
     </head>
-    <body>
-<div class="container">
+    <body style="background-color:lightblue">
+<div class="container" >
         <?php //mengambil file menu.php
         require 'akun.php';
         ?>

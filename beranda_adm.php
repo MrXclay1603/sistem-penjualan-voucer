@@ -3,20 +3,20 @@
         <div class ="col-xs-12">
 
             <div class="alert alert-info">
-                Selamat datang kembali <strong><?=$_SESSION['nama']?></strong>
+                Selamat datang kembali <strong><?=$_SESSION['nama']; ?></strong>
             </div>
         </div>
     </div>
-    <div class="row">
+    <div class="row ">
         <!--colomn kedua-->
         <div class="col-sm-12 col-xs-12">
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <h3 class="panel-title">Halaman Administrator Sistem Penjualan Voucer Toko Bismillah Ponsel Kisaran</h3>
                 </div>
-                <div class="panel-body">
+                <div class="panel-body bg-primary">
                      <table id="dtskripsi" class="table table-bordered table-striped table-hover">
-                       <thead>
+                       <thead >
                           <!-- <p align="center"><img src="img/logopnkis.jpg"></img></p> -->
                           <p class="label-title" align="center"><strong>Bismillah Ponsel KISARAN</strong></p>
                           <p class="col-sm-12 col-xs-12" align="center">

@@ -79,7 +79,7 @@
     <!-- Fixed navbar -->
         <div class="navbar-header-">
               <?php if (isset($_SESSION['username'])) { ?>
-                  <p align="right">Anda masuk sebagai <strong><?=$_SESSION['username']?></strong> | <?=$_SESSION['ket']?></p>
+                  <p align="right">Anda masuk sebagai <strong><?= ucfirst($_SESSION['username']); ?></strong> | <?=$_SESSION['ket']; ?></p>
             <?php  } ?>
 
         </div>
@@ -127,6 +127,7 @@
                 <li><a href="index.php?page=about&actions=tampil">About</a></li>
                 <li><a href="index.php?page=kontak&actions=tampil">Contact</a></li>
                 <li><a href="checkout.php">Checkout</a></li>
+                <li><a href="index.php?page=keranjang">Keranjang</a></li>
                
                 
                 

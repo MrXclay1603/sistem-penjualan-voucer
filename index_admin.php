@@ -65,6 +65,9 @@ require 'config/koneksi.php'; ?>
             cursor: pointer;
             width: 100%;
         }
+        body{
+            background-image:url('img/bg.jpg');
+        }
 
         </style>
     </head>

@@ -28,7 +28,7 @@
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Reports <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <!-- <li><a href="?page=penjualan&actions=report">Laporan Arsip</a></li> -->
-						<li><a href="?page=penjualann&actions=report">Laporan Penjualan Voucer</a></li>
+						<li><a href="?page=penjualan&actions=report">Laporan Penjualan Voucer</a></li>
                     </ul>
                 </li>
                 
@@ -43,6 +43,7 @@
                 <li><a href="?page=kontak&actions=tampil">Contact</a></li>
                 <?php if (isset($_SESSION['level']) && $_SESSION['level'] == 2) { ?>
                 <li><a href="checkout.php">Checkout</a></li>
+                <li><a href="index.php?page=keranjang">Keranjang</a></li>
                 <?php } ?>
                
                 

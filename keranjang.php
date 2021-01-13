@@ -1,8 +1,7 @@
 <?php
 
-
 if (!isset($_SESSION['username'])) {
-    echo    "<script>alert('Mau lihat keranjang, kamu wajib login dulu yah!');</script>";
+    echo    "<script>alert('Keranjang Masih Kosong!');</script>";
     echo    "<script>location='index.php?page=login&actions=admin';</script>";
 } elseif (empty($_SESSION['keranjang'])) {
     echo    "<script>alert('Keranjang Masih Kosong, Silahkan Belanja dulu!');</script>";
@@ -10,13 +9,12 @@ if (!isset($_SESSION['username'])) {
 } else {
     // echo '<pre>';
     // print_r($_SESSION);
-    // echo '</pre>';
-    ?>
+    // echo '</pre>';?>
     <?php  include 'config/koneksi.php'; ?>
     <!-- <?php echo '<pre>';
     print_r($_SESSION['keranjang']);
     echo '</pre>'; ?> -->
-        <h3><?= ucfirst(($_SESSION['nama'])); ?>,Berikut Isi Keranjang Belanjamu</h3><hr>
+        <h3><?= ucfirst(($_SESSION['nama'])); ?>, Berikut Isi Keranjang Belanjamu</h3><hr>
     <table class="table">
         <thead>
             <tr>
